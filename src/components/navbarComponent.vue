@@ -57,8 +57,8 @@ export default {};
 }
 
 nav {
-   
   background-color: #0b1fba !important;
+  height: 15vh;
   
 }
 
