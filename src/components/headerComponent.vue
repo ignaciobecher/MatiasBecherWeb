@@ -1,18 +1,19 @@
 <template>
-  <div class="header-container">
-    <video src="../../public/video/videoHeader.mp4" autoplay loop muted></video>
+  <div id="my-template" class="header-container">
+    <video autoplay loop muted playsinline>
+      <source src="/video/videoheader2.mp4" type="video/mp4" />
+    </video>
     <img
-      src="../../public/images/logo.png"
+      src="/images/logoFirma.png"
       alt="Imagen"
       style="
         position: absolute;
-        top: 60%;
-        left: 50%;
+        top: 90%;
+        left: 80%;
         transform: translate(-50%, -50%);
         width: 100px;
       "
     />
-    <h1 class="nameH1">MATIAS <span style="color: #0523f6">BECHER</span></h1>
 
     <h1
       style="
@@ -23,13 +24,21 @@
         transform: translate(-50%, -50%);
       "
     >
-    <i id="btnDown" class="bi bi-arrow-down-circle-fill"></i>
+      <i id="btnDown" @click="scrollToBottom" class="bi bi-arrow-down-circle-fill"></i>
     </h1>
   </div>
+  
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToBottom() {
+      const height = document.getElementById("my-template").clientHeight
+      window.scrollTo(0, height+100);
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -41,6 +50,7 @@ export default {};
 
 video {
   width: 100%;
+  filter: brightness(60%);
 }
 
 .nameH1 {
@@ -54,7 +64,7 @@ video {
   text-align: center;
 }
 
-#btnDown{
+#btnDown {
   color: #0523f6;
   font-size: 40px;
 }

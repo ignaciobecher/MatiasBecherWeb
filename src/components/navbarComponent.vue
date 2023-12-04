@@ -1,10 +1,11 @@
 <template>
   <div class="navbar-container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img class="logoImg" src="../../public/images/logo.png" />
+          <img class="logoImg" src="/images/logoBlanco3.png" />
         </a>
+      
         <button
           class="navbar-toggler"
           type="button"
@@ -59,7 +60,7 @@ export default {};
 nav {
   background-color: #0b1fba !important;
   height: 15vh;
-  
+  z-index: 1;
 }
 
 nav .nav-link{
