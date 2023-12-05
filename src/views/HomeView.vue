@@ -59,7 +59,7 @@ export default {
       setTimeout(() => {
         this.isLoading = false;
         this.loaded = true;
-      }, 20000);
+      }, 10000);
     },
   },
   mounted() {
