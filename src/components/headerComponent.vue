@@ -2,7 +2,7 @@
   <div id="my-template" class="header-container">
     <video autoplay loop muted playsinline>
       <source
-        src="/video/videoComp.mp4"
+        src="../assets/videoComp.mp4"
         type="video/mp4"
         preload="auto"
         lazyload
