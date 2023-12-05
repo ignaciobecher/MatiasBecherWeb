@@ -1,8 +1,9 @@
 <template>
   <div id="my-template" class="header-container">
-    <video autoplay loop muted playsinline>
+    <!-- <video autoplay loop muted playsinline>
       <source src="/video/videoComp.mp4" type="video/mp4" preload="auto" lazyload/>
-    </video>
+    </video> -->
+    <img style="width: 100%;" src="/images/logoFirma.png" alt="" srcset="">
     <img
       src="/images/logoFirma.png"
       alt="Imagen"
