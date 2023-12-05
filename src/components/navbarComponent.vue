@@ -20,19 +20,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">MATIAS BECHER</a>
+              <a class="nav-link" @click="scroolToMatias" aria-current="page" href="#">MATIAS BECHER</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">KARTING</a>
+              <a class="nav-link" @click="scroolToKarting" href="#">KARTING</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link">TURISMO PISTA</a>
+              <a class="nav-link" @click="scroolToTurismo">TURISMO PISTA</a>
             </li>
 
             
             <li class="nav-item">
-              <a class="nav-link">MI HISTORIA</a>
+              <a class="nav-link" @click="scroolToHistory">MI HISTORIA</a>
             </li>
           </ul>
         </div>
@@ -42,7 +42,27 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scroolToMatias() {
+      const height = document.getElementById("my-template").clientHeight
+      window.scrollTo(0, height+100);
+    },
+    scroolToKarting(){
+      const height = document.getElementById("my-template").clientHeight
+      window.scrollTo(0,height+950)
+    },
+    scroolToTurismo(){
+      const height = document.getElementById("my-template").clientHeight
+      window.scrollTo(0,height+1550)
+    },
+    scroolToHistory(){
+      const height = document.getElementById("my-template").clientHeight
+      window.scrollTo(0,height+2200)
+    },
+    
+  },
+};
 </script>
 
 <style scoped>

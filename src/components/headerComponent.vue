@@ -24,18 +24,23 @@
         transform: translate(-50%, -50%);
       "
     >
-      <i id="btnDown" @click="scrollToBottom" class="bi bi-arrow-down-circle-fill"></i>
+      <i
+        id="btnDown"
+        @click="scrollToBottom"
+        class="bi bi-arrow-down-circle-fill"
+      ></i>
     </h1>
   </div>
-  
+
+
 </template>
 
 <script>
 export default {
   methods: {
     scrollToBottom() {
-      const height = document.getElementById("my-template").clientHeight
-      window.scrollTo(0, height+100);
+      const height = document.getElementById("my-template").clientHeight;
+      window.scrollTo(0, height + 100);
     },
   },
 };
@@ -46,6 +51,12 @@ export default {
 
 * {
   font-family: "Oswald", sans-serif;
+}
+
+
+
+.header-container {
+  background-color: #0b1fba;
 }
 
 video {
@@ -68,5 +79,4 @@ video {
   color: #0523f6;
   font-size: 40px;
 }
-
 </style>
