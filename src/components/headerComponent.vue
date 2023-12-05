@@ -1,9 +1,13 @@
 <template>
   <div id="my-template" class="header-container">
-    <!-- <video autoplay loop muted playsinline>
-      <source src="/video/videoComp.mp4" type="video/mp4" preload="auto" lazyload/>
-    </video> -->
-    <img style="width: 100%;" src="/images/logoFirma.png" alt="" srcset="">
+    <video autoplay loop muted playsinline>
+      <source
+        src="/video/videoComp.mp4"
+        type="video/mp4"
+        preload="auto"
+        lazyload
+      />
+    </video>
     <img
       src="/images/logoFirma.png"
       alt="Imagen"
@@ -32,14 +36,12 @@
       ></i>
     </h1>
   </div>
-
- 
 </template>
 
 <script>
-import VueLazyload from 'vue-lazyload';
+import VueLazyload from "vue-lazyload";
 export default {
-  components:{VueLazyload},
+  components: { VueLazyload },
   data() {
     return {
       isLoading: false,
@@ -85,7 +87,4 @@ video {
   color: #0523f6;
   font-size: 40px;
 }
-
-
-
 </style>
