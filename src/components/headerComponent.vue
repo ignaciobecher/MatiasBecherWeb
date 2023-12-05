@@ -32,11 +32,16 @@
     </h1>
   </div>
 
-
+ 
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      isLoading: false,
+    };
+  },
   methods: {
     scrollToBottom() {
       const height = document.getElementById("my-template").clientHeight;
@@ -52,8 +57,6 @@ export default {
 * {
   font-family: "Oswald", sans-serif;
 }
-
-
 
 .header-container {
   background-color: #0b1fba;
@@ -79,4 +82,7 @@ video {
   color: #0523f6;
   font-size: 40px;
 }
+
+
+
 </style>
