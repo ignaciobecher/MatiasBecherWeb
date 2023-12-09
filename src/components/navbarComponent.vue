@@ -73,6 +73,8 @@ export default {
   font-family: 'Oswald', sans-serif;
 }
 
+
+
 .logoImg{
   filter: brightness(95%);
 }

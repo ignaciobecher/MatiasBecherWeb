@@ -49,7 +49,7 @@ export default {
   data() {
     return {
       isLoading: false,
-      loaded: false,
+      loaded: true,
     };
   },
   methods: {
@@ -62,9 +62,9 @@ export default {
       }, 8000);
     },
   },
-  mounted() {
-    this.loadPage();
-  },
+  // mounted() {
+  //   this.loadPage();
+  // },
 };
 </script>
 

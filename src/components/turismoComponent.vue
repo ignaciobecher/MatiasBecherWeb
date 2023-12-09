@@ -12,7 +12,7 @@
       asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
       aspernatur doloribus? Nesciunt?
     </p>
-      <img class="photoTurism" src="/images/turismo1.jpg" alt="" />
+    <img class="photoTurism" src="/images/turismo1.jpg" alt="" />
   </div>
 </template>
 
@@ -23,27 +23,27 @@
   font-family: "Oswald", sans-serif;
 }
 
-.turismo-container {
-  background-color: #0b1fba !important;
-  padding-top: 30px;
+@media (max-width: 760px) {
+  .turismo-container {
+    background-color: #0b1fba !important;
+    padding-top: 30px;
+  }
+
+  .h1Title {
+    color: white;
+    padding-left: 5px;
+  }
+
+  .pSubtitle {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  .photoTurism {
+    width: 100%;
+  }
 }
-
-.h1Title {
-  color: white;
-  padding-left: 5px;
-}
-
-.pSubtitle {
-  color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-weight: 300;
-  line-height: 28px;
-}
-
-.photoTurism {
-  width: 100%;
-}
-
-
 </style>
