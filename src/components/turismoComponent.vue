@@ -13,7 +13,32 @@
     asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
     aspernatur doloribus? Nesciunt?
     </p>
-    <img class="photoTurism" src="/images/turismo1.jpg" alt="" />
+    <div class="photoTurism">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/turismo1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/turismo1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/turismo1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- <img class="photoTurism" src="/images/turismo1.jpg" alt="" /> -->
   </div>
 </template>
 
@@ -34,6 +59,8 @@
     grid-template-columns: 1fr 1fr;
     background-color: #0b1fba !important;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .turismo-container .photoTurism {

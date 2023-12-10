@@ -32,6 +32,8 @@
     grid-template-rows: auto;
     background-color: black;
     color: white;
+    padding-top: 30px;
+        padding-bottom: 30px;
   }
 
   .history-container img {

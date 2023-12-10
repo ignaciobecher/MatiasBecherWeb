@@ -90,7 +90,7 @@ export default {
     width: 100%;
     height: 100%;
     filter: grayscale(1);
-    transition: filter 500ms ease-in-out;
+    transition: filter 300ms ease-in-out;
   }
 
 

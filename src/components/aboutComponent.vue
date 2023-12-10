@@ -34,6 +34,7 @@
         grid-template-rows: auto auto;
         background-color: #0b1fba !important;
         padding-top: 30px;
+        padding-bottom: 30px;
         color: white;
     }
 

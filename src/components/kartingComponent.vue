@@ -30,6 +30,8 @@
         grid-template-rows: 1fr;
         background-color: black;
         color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .karting-container img {
