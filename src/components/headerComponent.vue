@@ -1,7 +1,12 @@
 <template>
   <div id="my-template" class="header-container">
     <video autoplay loop muted playsinline>
-      <source src="../assets/videoComp.mp4" type="video/mp4" preload="auto" lazyload />
+      <source
+        src="../assets/videoComp.mp4"
+        type="video/mp4"
+        preload="auto"
+        lazyload
+      />
     </video>
     <img
       src="/images/logoFirma.png"
@@ -34,23 +39,26 @@
 
   <div class="header-monitor-container">
     <div class="images">
-      <img loading="eager" src="/images/fotoAbout.jpg" alt="">
+      <img loading="eager" src="/images/fotoAbout.jpg" alt="" />
     </div>
     <div class="images">
-      <img loading="eager" src="/images/headerMain.jpg" alt="">
+      <img loading="eager" src="/images/headerMain.jpg" alt="" />
     </div>
     <div class="images">
-      <img loading="eager" src="/images/turismo2.jpg" alt="">
+      <img loading="eager" src="/images/turismo2.jpg" alt="" />
     </div>
     <div class="images">
-      <img loading="eager" src="/images/headerMain2.jpg" alt="">
+      <img loading="eager" src="/images/headerMain2.jpg" alt="" />
     </div>
   </div>
 
+  <i v-show="btnUpShow" @click="scrollToTop" id="btnUp" class="bi bi-arrow-up-circle-fill"></i>
 
-  <a href="https://wa.link/7he26a"
-    class="float animate__animated animate__fadeIn" target="_blank">
-
+  <a
+    href="https://wa.link/7he26a"
+    class="float animate__animated animate__fadeIn"
+    target="_blank"
+  >
     <i class="bi bi-whatsapp my-float"></i>
   </a>
 </template>
@@ -62,13 +70,38 @@ export default {
   data() {
     return {
       isLoading: false,
+      btnUpShow:false,
     };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
     scrollToBottom() {
       const height = document.getElementById("my-template").clientHeight;
       window.scrollTo(0, height + 100);
     },
+    handleScroll() {
+      const height = document.getElementById('my-template').getBoundingClientRect().top;
+      
+      if (window.pageYOffset > 200) {
+        this.btnUpShow = true;
+      } else {
+        this.btnUpShow = false;
+      }
+    },
+    scrollToTop() {
+      const height = document.getElementById('my-template').getBoundingClientRect().top;
+
+      window.scrollTo({
+        top: height,
+        behavior: 'smooth' // Hace que el scroll sea suave
+      });
+    }
+
   },
 };
 </script>
@@ -79,24 +112,36 @@ export default {
 * {
   font-family: "Oswald", sans-serif;
 }
-.my-float {
-    padding-top: 16px;
-  }
 
-  .float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-  }
+#btnUp {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  z-index: 2;
+  cursor: pointer;
+  
+}
+.my-float {
+  padding-top: 16px;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
 
 /*-------------------------------- RESPONSIVE PARA PANTALLAS GRANDES----------------------------- */
 
@@ -118,23 +163,20 @@ export default {
     transition: filter 300ms ease-in-out;
   }
 
-
-
   .images img:hover {
     filter: none;
   }
-
 }
 
 /*-------------------------------- RESPONSIVE PARA DISPOSITIVOS PEQUEÑOS------------------------ */
 @media (max-width: 760px) {
-  .header-monitor-container{
+  .header-monitor-container {
     display: none;
   }
 
-.header-container {
-  background-color: #0b1fba;
-}
+  .header-container {
+    background-color: #0b1fba;
+  }
 
   video {
     width: 100%;
@@ -152,8 +194,9 @@ export default {
     text-align: center;
   }
 
-#btnDown {
-  color: #0523f6;
-  font-size: 40px;
-}}
+  #btnDown {
+    color: #0523f6;
+    font-size: 40px;
+  }
+}
 </style>
