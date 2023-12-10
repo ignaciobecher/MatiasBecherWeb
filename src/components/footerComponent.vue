@@ -29,27 +29,31 @@
   font-family: "Oswald", sans-serif;
 }
 
-.footer-container {
-  background-color: #0b1fba !important;
-}
+@media (max-width: 760px) {
+  .footer-container {
+    background-color: #0b1fba !important;
+  }
 
-.social-container {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center; /* Centra horizontalmente */;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+  .social-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    /* Centra horizontalmente */
+    ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
-.iconDiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .iconDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.iconDiv i{
+  .iconDiv i {
     font-size: 30px;
     color: white;
+  }
 }
 </style>

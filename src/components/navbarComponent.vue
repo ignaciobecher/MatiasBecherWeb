@@ -66,6 +66,8 @@ export default {
 }
 
 
+
+
 @media (min-width: 761px) {
   .logoImg{
   filter: brightness(95%);

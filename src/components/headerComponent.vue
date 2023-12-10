@@ -3,22 +3,32 @@
     <video autoplay loop muted playsinline>
       <source src="../assets/videoComp.mp4" type="video/mp4" preload="auto" lazyload />
     </video>
-    <img src="/images/logoFirma.png" alt="Imagen" style="
-                  position: absolute;
-                  top: 90%;
-                  left: 80%;
-                  transform: translate(-50%, -50%);
-                  width: 100px;
-                " />
+    <img
+      src="/images/logoFirma.png"
+      alt="Imagen"
+      style="
+        position: absolute;
+        top: 90%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+      "
+    />
 
-    <h1 style="
-                  font-weight: 900;
-                  position: absolute;
-                  top: 90%;
-                  left: 50%;
-                  transform: translate(-50%, -50%);
-                ">
-      <i id="btnDown" @click="scrollToBottom" class="bi bi-arrow-down-circle-fill"></i>
+    <h1
+      style="
+        font-weight: 900;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      "
+    >
+      <i
+        id="btnDown"
+        @click="scrollToBottom"
+        class="bi bi-arrow-down-circle-fill"
+      ></i>
     </h1>
   </div>
 
@@ -97,10 +107,9 @@ export default {
     display: none;
   }
 
-  .header-container {
-    background-color: #0b1fba;
-
-  }
+.header-container {
+  background-color: #0b1fba;
+}
 
   video {
     width: 100%;
@@ -118,10 +127,8 @@ export default {
     text-align: center;
   }
 
-  #btnDown {
-    color: #0523f6;
-    font-size: 40px;
-  }
-
+#btnDown {
+  color: #0523f6;
+  font-size: 40px;
 }
-</style> 
+</style>
