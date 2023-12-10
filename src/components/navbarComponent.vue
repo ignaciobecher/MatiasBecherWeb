@@ -74,7 +74,7 @@ export default {
     scroolToTurismo() {
       const height = document.getElementById("my-template").clientHeight;
       if (window.innerWidth > 765) {
-        window.scrollTo(0, height + 2100);
+        window.scrollTo(0, height + 2000);
       } else {
         window.scrollTo(0, height + 1550);
       }
@@ -82,7 +82,7 @@ export default {
     scroolToHistory() {
       const height = document.getElementById("my-template").clientHeight;
       if (window.innerWidth > 765) {
-        window.scrollTo(0, height + 2800);
+        window.scrollTo(0, height + 2700);
       } else {
         window.scrollTo(0, height + 2200);
       }
