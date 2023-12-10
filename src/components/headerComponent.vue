@@ -130,5 +130,5 @@ export default {
 #btnDown {
   color: #0523f6;
   font-size: 40px;
-}
+}}
 </style>

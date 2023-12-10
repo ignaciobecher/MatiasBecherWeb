@@ -29,6 +29,47 @@
   font-family: "Oswald", sans-serif;
 }
 
+/*-------------------------------- RESPONSIVE PARA PANTALLAS GRANDES----------------------------- */
+
+@media (min-width: 761px){
+  .footer-container {
+    background-color: #0b1fba !important;
+  }
+
+  .social-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    /* Centra horizontalmente */
+    ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .iconDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iconDiv i {
+    font-size: 30px;
+    color: white;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+  }
+
+  .iconDiv i:hover{
+    color: black;
+    transform: rotate(360deg);
+  }
+  
+}
+
+
+/*-------------------------------- RESPONSIVE PARA DISPOSITIVOS PEQUEÑOS----------------------------- */
+
 @media (max-width: 760px) {
   .footer-container {
     background-color: #0b1fba !important;

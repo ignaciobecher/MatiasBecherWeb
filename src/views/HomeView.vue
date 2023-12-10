@@ -62,9 +62,9 @@ export default {
       }, 8000);
     },
   },
-  mounted() {
-    this.loadPage();
-  },
+  // mounted() {
+  //   this.loadPage();
+  // },
 };
 </script>
 

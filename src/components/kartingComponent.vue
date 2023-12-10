@@ -1,15 +1,16 @@
 <template>
     <div class="karting-container">
-        <h1 class="h1Title">Karting</h1>
-        <p class="pSubtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, voluptatem. Earum,
-            laboriosam possimus rerum nisi ducimus doloremque illo voluptatum laborum eveniet temporibus quis consequatur
-            vel, ipsa natus ex. Eveniet cum ut eaque soluta cupiditate harum esse?</p>
-        <img class="photoKart" src="/images/Kart.jpg" alt="" srcset="">
-        <p class="pSubtitle"> Repellendus nesciunt aliquam quaerat expedita impedit, cum optio labore quo totam odit
-            accusamus! Error ipsum doloremque possimus alias doloribus maiores. Iure officiis vero fugiat? Ipsum cupiditate
-            quidem soluta maiores quaerat asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
-            aspernatur doloribus? Nesciunt?</p>
 
+        <p class="pSubtitle">
+        <h1 class="h1Title">Karting</h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, voluptatem. Earum,
+        laboriosam possimus rerum nisi ducimus doloremque illo voluptatum laborum eveniet temporibus quis consequatur
+        vel, ipsa natus ex. Eveniet cum ut eaque soluta cupiditate harum esse?
+        Repellendus nesciunt aliquam quaerat expedita impedit, cum optio labore quo totam odit
+        accusamus! Error ipsum doloremque possimus alias doloribus maiores. Iure officiis vero fugiat? Ipsum cupiditate
+        quidem soluta maiores quaerat asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
+        aspernatur doloribus? Nesciunt?</p>
+        <img class="photoKart" src="/images/Kart.jpg" alt="" srcset="">
     </div>
 </template>
 
@@ -20,6 +21,37 @@
     font-family: 'Oswald', sans-serif;
 }
 
+/*-------------------------------- RESPONSIVE PARA PANTALLAS GRANDES------------------------ */
+
+@media (min-width: 761px) {
+    .karting-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: black;
+        color: white;
+    }
+
+    .karting-container img {
+        width: 100%;
+        grid-column: 2;
+        grid-row: 1;
+        height: 100%;
+
+    }
+
+    .karting-container h1 {
+        grid-column: 1;
+    }
+
+    .karting-container .pSubtitle {
+        grid-column: 1;
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+/*-------------------------------- RESPONSIVE PARA DISPOSITIVOS PEQUEÑOS------------------------ */
 
 @media (max-width: 760px) {
 
