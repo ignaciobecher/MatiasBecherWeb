@@ -1,21 +1,22 @@
 <template>
   <div class="footer-container">
+    <h1 style="text-align-last: center; color: white;">Contacto</h1>
     <div class="social-container">
       <div class="iconDiv">
-        <a href="">
+        <a href="https://es-la.facebook.com/mati.becher/" target="_blank">
           <i class="bi bi-facebook"></i>
         </a>
       </div>
 
       <div class="iconDiv">
-        <a href="">
+        <a href="https://www.instagram.com/matibecher_/" target="_blank">
           <i class="bi bi-instagram"></i>
         </a>
       </div>
 
       <div class="iconDiv">
-        <a href="">
-          <i class="bi bi-youtube"></i>
+        <a href="https://wa.link/7he26a" target="_blank">
+          <i class="bi bi-whatsapp"></i>
         </a>
       </div>
     </div>
@@ -57,7 +58,7 @@
     font-size: 30px;
     color: white;
     transform: rotate(0deg);
-    transition-duration: 1s;
+    transition-duration: 250ms;
   }
 
   .iconDiv i:hover{

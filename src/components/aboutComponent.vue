@@ -1,7 +1,7 @@
 <template>
     <div class="about-container">
        
-        <p class="pSubtitle">
+        <p data-aos="fade-right" class="pSubtitle">
             <h1 class="h1Title">Matias Becher</h1>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, voluptatem. Earum,
             laboriosam possimus rerum nisi ducimus doloremque illo voluptatum laborum eveniet temporibus quis consequatur
@@ -14,10 +14,35 @@
             expedita impedit, cum optio labore quo totam odit accusamus! Error ipsum doloremque possimus alias doloribus
             maiores. Iure officiis vero fugiat? Ipsum cupiditate quidem soluta maiores quaerat asperiores eius similique eos
             rem sequi quod, placeat dolores cum eligendi aspernatur doloribus? Nesciunt?</p>
-        <img src="/images/fotoAbout.jpg" alt="" class="photoAbout">
+        <img data-aos="fade-left" src="/images/fotoAbout.jpg" alt="" class="photoAbout">
 
     </div>
 </template>
+
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    AOS.init({
+      once: true, // La animación solo se realizará una vez
+      offset: 100, // Punto en píxeles antes de que se active la animación
+    });
+
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      AOS.refreshHard(); // Actualiza la posición de los elementos cuando se hace scroll
+    },
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+};
+</script>
+
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');

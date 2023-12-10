@@ -1,7 +1,7 @@
 <template>
   <div class="history-container">
-    <p class="pSubtitle">
-    <h1 class="h1Title">Mi historia</h1>
+    <p data-aos="zoom-in-left" data-aos-duration="1000" class="pSubtitle">
+    <h1 data-aos="zoom-in-left" data-aos-duration="1000" class="h1Title">Mi historia</h1>
 
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur,
     voluptatem. Earum, laboriosam possimus rerum nisi ducimus doloremque illo
@@ -13,9 +13,34 @@
     asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
     aspernatur doloribus? Nesciunt?
     </p>
-    <img class="photoTurism" src="/images/history.jpg" alt="" />
+    <img data-aos-duration="1000" data-aos="zoom-in-right" class="photoTurism" src="/images/history.jpg" alt="" />
   </div>
 </template>
+
+
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    AOS.init({
+      once: false, // La animación solo se realizará una vez
+      offset: 100, // Punto en píxeles antes de que se active la animación
+    });
+
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      AOS.refreshHard(); // Actualiza la posición de los elementos cuando se hace scroll
+    },
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+};
+</script>
   
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap");
