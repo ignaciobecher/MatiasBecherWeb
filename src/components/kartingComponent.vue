@@ -1,7 +1,7 @@
 <template>
     <div class="karting-container">
 
-        <p data-aos="fade-right" class="pSubtitle">
+        <p data-aos="fade-left" class="pSubtitle">
         <h1 class="h1Title">Karting</h1>
         Participo activamente en una vibrante categoría de karting de Cordoba, federada y representativa de 10 provincias de
         todo el país. Este torneo se caracteriza por su alcance nacional y la participación de talentosos pilotos que

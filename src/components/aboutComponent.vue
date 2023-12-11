@@ -4,7 +4,7 @@
         <p data-aos="fade-right" class="pSubtitle">
             <h1 class="h1Title">Matias Becher</h1>
             Matías Becher, con sus 27 años de edad y origen en Villa Mercedes (San Luis), ha forjado una destacada carrera deportiva de 9 años como piloto. Durante este tiempo, ha alcanzado la cima con la victoria en 2 campeonatos, se ha destacado como subcampeón en una ocasión y ha demostrado su consistencia con una amplia presencia en podios, consolidándose como una figura prominente en el mundo del automovilismo.</p>
-        <img data-aos="fade-left" src="/images/aboutPhoto.jpeg" alt="" class="photoAbout">
+        <img data-aos="fade-right" src="/images/aboutPhoto.jpeg" alt="" class="photoAbout">
 
     </div>
 </template>

@@ -1,8 +1,8 @@
 <template>
   <div class="history-container">
-    <h1 data-aos="zoom-in-left" data-aos-duration="1000" class="h1Title">Propuesta publicitaria</h1>
+    <h1 data-aos="zoom-in-right" data-aos-duration="1000" class="h1Title">Propuesta publicitaria</h1>
 
-    <p data-aos="zoom-in-left" data-aos-duration="1000" class="pSubtitle">
+    <p data-aos="zoom-in-right" data-aos-duration="1000" class="pSubtitle">
     ¡Le ofrecemos un plan completo para darle visibilidad a su empresa de manera impactante! <br>
 
     1. Anuncios en Autos y Kartings:

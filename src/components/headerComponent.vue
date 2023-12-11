@@ -59,14 +59,16 @@
 </div>
  
   <div id="my-template" class="header-container">
-    <video autoplay loop muted playsinline>
+    <!-- <video autoplay loop muted playsinline>
       <source
         src="../assets/videoComp.mp4"
         type="video/mp4"
         preload="auto"
         lazyload
       />
-    </video>
+    </video> -->
+
+    <img src="/images/fotoAbout.jpg" alt="">
     <img
       src="/images/logoFirma.png"
       alt="Imagen"
@@ -272,7 +274,7 @@ export default {
     background-color: #0b1fba;
   }
 
-  video {
+  .header-container img {
     width: 100%;
     filter: brightness(60%);
   }
