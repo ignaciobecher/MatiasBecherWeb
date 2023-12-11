@@ -5,49 +5,50 @@
     <p data-aos="zoom-in-left" data-aos-duration="1000" class="pSubtitle">
     ¡Le ofrecemos un plan completo para darle visibilidad a su empresa de manera impactante! <br>
 
-    1.<span style="color: #0b1fba; font-weight: bolder;">Anuncios en Autos y Kartings</span> :
+    1. Anuncios en Autos y Kartings:
      Colocaremos su logo en 2 autos de carreras y 2 kartings para que destaque en eventos emocionantes.<br>
-    2.<span style="color: #0b1fba; font-weight: bolder;">Publicidad en Instagram (Anuncio Pagado)</span> :
+    2. Publicidad en Instagram (Anuncio Pagado):
      Llegaremos directamente a más personas a través de publicidad en nuestro Instagram.<br>
-    3.<span style="color: #0b1fba; font-weight: bolder;">Ropa de Competición con su Marca</span> :
+    3. Ropa de Competición con su Marca:
      Su marca estará presente en la ropa que usamos en las competiciones, destacándose en acción. También, ofrecemos la
     opción de utilizar su propia indumentaria y merchandising para una mayor identificación.<br>
 
 
-    4.<span style="color: #0b1fba; font-weight: bolder;">Equipo de Promotores</span> :
+    4. Equipo de Promotores:
     Contrate a nuestro equipo de promotores según su conveniencia en cada evento.<br>
 
 
-    5.<span style="color: #0b1fba; font-weight: bolder;">Espacio en mi Página Web</span> :
+    5. Espacio en mi Página Web:
      Tendrá una sección exclusiva en mi página web para mostrar su marca.<br>
 
 
-    6.<span style="color: #0b1fba; font-weight: bolder;">Apariciones en Medios</span> :
+    6. Apariciones en Medios:
      Apareceremos en más de 10 medios de comunicación cada mes, dentro y fuera de San Luis.<br>
 
 
-    7.<span style="color: #0b1fba; font-weight: bolder;">Conferencias de Prensa</span> :
+    7. Conferencias de Prensa:
      Participaremos en al menos 5 conferencias de prensa al año, llevando su marca a diferentes lugares.<br>
 
 
-    8.<span style="color: #0b1fba; font-weight: bolder;">Presencia Internacional en Paraguay</span> :
+    8. Presencia Internacional en Paraguay:
     - Su marca será destacada en una conferencia y medios de prensa en Paraguay, alcanzando audiencias internacionales.<br>
 
 
-    9.<span style="color: #0b1fba; font-weight: bolder;">Contacto Diario con Miles de Personas</span> :
+    9. Contacto Diario con Miles de Personas:
     - Acceso directo a más de 5000 personas diarias a través de nuestras asociaciones.<br>
 
 
-    10.<span style="color: #0b1fba; font-weight: bolder;">Destaque en Redes Sociales</span> :
+    10. Destaque en Redes Socialesn>:
      Su marca será destacada en mi perfil de Instagram con más de 100,000 vistas al mes, y con un crecimiento diario
     significativo.<br>
 
 
-    11.<span style="color: #0b1fba; font-weight: bolder;">Sorteo Especial para Seguidores</span> :
+    
+    11. Sorteo Especial para Seguidores:
     - Realizaremos un sorteo para atraer más seguidores y amor hacia su marca.<br>
 
 
-    12.<span style="color: #0b1fba; font-weight: bolder;">Reporte Mensual de Resultados</span> :
+    12. Reporte Mensual de Resultados:
      Le proporcionaremos un reporte mensual que le mostrará cuántas personas han visto su marca en nuestras actividades.<br><br>
 
 
