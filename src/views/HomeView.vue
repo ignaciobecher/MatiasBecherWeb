@@ -51,8 +51,8 @@ export default {
   },
   data() {
     return {
-      isLoading: false,
-      loaded: true,
+      isLoading: true,
+      loaded: false,
     };
   },
   methods: {
@@ -62,12 +62,12 @@ export default {
       setTimeout(() => {
         this.isLoading = false;
         this.loaded = true;
-      }, 8000);
+      }, 3000);
     },
   },
-  // mounted() {
-  //   this.loadPage();
-  // },
+  mounted() {
+    this.loadPage();
+  },
 };
 </script>
 
