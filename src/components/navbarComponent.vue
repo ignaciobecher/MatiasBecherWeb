@@ -160,15 +160,13 @@ export default {
 
   nav {
     background-color: #0b1fba !important;
-    height: 15vh;
     z-index: 1;
   }
 
   nav .nav-link {
     font-weight: 900;
     font-size: 23px;
-    color: black;
-    text-shadow: 1px 1px 1px white;
+    color: white;
   }
 
   .navbar img {
