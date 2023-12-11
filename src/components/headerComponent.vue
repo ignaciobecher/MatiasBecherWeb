@@ -1,6 +1,61 @@
 <template>
  
- <div class="slider">
+ 
+  <div id="my-template" class="header-container">
+    <video autoplay loop muted playsinline>
+      <source
+        src="../assets/videoComp.mp4"
+        type="video/mp4"
+        preload="auto"
+        lazyload
+      />
+    </video>
+    <img
+      src="/images/logoFirma.png"
+      alt="Imagen"
+      style="
+        position: absolute;
+        top: 90%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+      "
+    />
+
+    <h1
+      style="
+        font-weight: 900;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      "
+    >
+      <i
+        id="btnDown"
+        @click="scrollToBottom"
+        class="bi bi-arrow-down-circle-fill"
+      ></i>
+    </h1>
+  </div>
+
+  <div class="header-monitor-container">
+    <div class="images">
+      <img loading="eager" src="/images/fotoAbout.jpg" alt="" />
+    </div>
+    <div class="images">
+      <img loading="eager" src="/images/turismo2.jpg" alt="" />
+    </div>
+    <div class="images">
+      <img loading="eager" src="/images/headerMain.jpg" alt="" />
+    </div>
+
+    <div class="images">
+      <img loading="eager" src="/images/turismo7.jpeg" alt="" />
+    </div>
+  </div>
+
+  <div class="slider">
   <div class="slide-track">
     <div class="slide">
       <img src="/images/cdaLogo.png" alt="">
@@ -58,59 +113,6 @@
     </div>
   </div>
 </div>
-  <div id="my-template" class="header-container">
-    <video autoplay loop muted playsinline>
-      <source
-        src="../assets/videoComp.mp4"
-        type="video/mp4"
-        preload="auto"
-        lazyload
-      />
-    </video>
-    <img
-      src="/images/logoFirma.png"
-      alt="Imagen"
-      style="
-        position: absolute;
-        top: 90%;
-        left: 80%;
-        transform: translate(-50%, -50%);
-        width: 100px;
-      "
-    />
-
-    <h1
-      style="
-        font-weight: 900;
-        position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      "
-    >
-      <i
-        id="btnDown"
-        @click="scrollToBottom"
-        class="bi bi-arrow-down-circle-fill"
-      ></i>
-    </h1>
-  </div>
-
-  <div class="header-monitor-container">
-    <div class="images">
-      <img loading="eager" src="/images/fotoAbout.jpg" alt="" />
-    </div>
-    <div class="images">
-      <img loading="eager" src="/images/turismo2.jpg" alt="" />
-    </div>
-    <div class="images">
-      <img loading="eager" src="/images/headerMain.jpg" alt="" />
-    </div>
-
-    <div class="images">
-      <img loading="eager" src="/images/turismo7.jpeg" alt="" />
-    </div>
-  </div>
 
   <i
     v-show="btnUpShow"
@@ -208,6 +210,7 @@ export default {
   width: 100px;
   height: 100px;
   animation: scroll 60s linear infinite;
+  
 }
 
 .slide-track {
@@ -215,7 +218,7 @@ export default {
   display: flex;
   gap: 3em;
   overflow: hidden;
-  background-color:white;
+  background-color:#0b1fba;
 }
 
 .slider {
