@@ -1,17 +1,59 @@
 <template>
   <div class="history-container">
-    <p data-aos="zoom-in-left" data-aos-duration="1000" class="pSubtitle">
     <h1 data-aos="zoom-in-left" data-aos-duration="1000" class="h1Title">Propuesta publicitaria</h1>
 
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur,
-    voluptatem. Earum, laboriosam possimus rerum nisi ducimus doloremque illo
-    voluptatum laborum eveniet temporibus quis consequatur vel, ipsa natus ex.
-    Eveniet cum ut eaque soluta cupiditate harum esse?Repellendus nesciunt
-    aliquam quaerat expedita impedit, cum optio labore quo totam odit
-    accusamus! Error ipsum doloremque possimus alias doloribus maiores. Iure
-    officiis vero fugiat? Ipsum cupiditate quidem soluta maiores quaerat
-    asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
-    aspernatur doloribus? Nesciunt?
+    <p data-aos="zoom-in-left" data-aos-duration="1000" class="pSubtitle">
+    ¡Le ofrecemos un plan completo para darle visibilidad a su empresa de manera impactante! <br>
+
+    1.<span style="color: #0b1fba; font-weight: bolder;">Anuncios en Autos y Kartings</span> :
+     Colocaremos su logo en 2 autos de carreras y 2 kartings para que destaque en eventos emocionantes.<br>
+    2.<span style="color: #0b1fba; font-weight: bolder;">Publicidad en Instagram (Anuncio Pagado)</span> :
+     Llegaremos directamente a más personas a través de publicidad en nuestro Instagram.<br>
+    3.<span style="color: #0b1fba; font-weight: bolder;">Ropa de Competición con su Marca</span> :
+     Su marca estará presente en la ropa que usamos en las competiciones, destacándose en acción. También, ofrecemos la
+    opción de utilizar su propia indumentaria y merchandising para una mayor identificación.<br>
+
+
+    4.<span style="color: #0b1fba; font-weight: bolder;">Equipo de Promotores</span> :
+    Contrate a nuestro equipo de promotores según su conveniencia en cada evento.<br>
+
+
+    5.<span style="color: #0b1fba; font-weight: bolder;">Espacio en mi Página Web</span> :
+     Tendrá una sección exclusiva en mi página web para mostrar su marca.<br>
+
+
+    6.<span style="color: #0b1fba; font-weight: bolder;">Apariciones en Medios</span> :
+     Apareceremos en más de 10 medios de comunicación cada mes, dentro y fuera de San Luis.<br>
+
+
+    7.<span style="color: #0b1fba; font-weight: bolder;">Conferencias de Prensa</span> :
+     Participaremos en al menos 5 conferencias de prensa al año, llevando su marca a diferentes lugares.<br>
+
+
+    8.<span style="color: #0b1fba; font-weight: bolder;">Presencia Internacional en Paraguay</span> :
+    - Su marca será destacada en una conferencia y medios de prensa en Paraguay, alcanzando audiencias internacionales.<br>
+
+
+    9.<span style="color: #0b1fba; font-weight: bolder;">Contacto Diario con Miles de Personas</span> :
+    - Acceso directo a más de 5000 personas diarias a través de nuestras asociaciones.<br>
+
+
+    10.<span style="color: #0b1fba; font-weight: bolder;">Destaque en Redes Sociales</span> :
+     Su marca será destacada en mi perfil de Instagram con más de 100,000 vistas al mes, y con un crecimiento diario
+    significativo.<br>
+
+
+    11.<span style="color: #0b1fba; font-weight: bolder;">Sorteo Especial para Seguidores</span> :
+    - Realizaremos un sorteo para atraer más seguidores y amor hacia su marca.<br>
+
+
+    12.<span style="color: #0b1fba; font-weight: bolder;">Reporte Mensual de Resultados</span> :
+     Le proporcionaremos un reporte mensual que le mostrará cuántas personas han visto su marca en nuestras actividades.<br><br>
+
+
+    Elija las opciones que se adapten a su presupuesto y objetivos.<br>
+
+    ¡Vamos a hacer que su marca brille en todas partes!
     </p>
     <img data-aos-duration="1000" data-aos="zoom-in-right" class="photoTurism" src="/images/logoBlanco3.png" alt="" />
   </div>
@@ -58,7 +100,11 @@ export default {
     background-color: black;
     color: white;
     padding-top: 30px;
-        padding-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  .h1Title{
+    padding-left: 20px;
   }
 
   .history-container img {

@@ -3,14 +3,18 @@
 
         <p data-aos="fade-right" class="pSubtitle">
         <h1 class="h1Title">Karting</h1>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, voluptatem. Earum,
-        laboriosam possimus rerum nisi ducimus doloremque illo voluptatum laborum eveniet temporibus quis consequatur
-        vel, ipsa natus ex. Eveniet cum ut eaque soluta cupiditate harum esse?
-        Repellendus nesciunt aliquam quaerat expedita impedit, cum optio labore quo totam odit
-        accusamus! Error ipsum doloremque possimus alias doloribus maiores. Iure officiis vero fugiat? Ipsum cupiditate
-        quidem soluta maiores quaerat asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
-        aspernatur doloribus? Nesciunt?</p>
-        <img data-aos="flip-left" data-aos-duration="3000" data-aos-easing="ease-out-cubic" class="photoKart" src="/images/Kart.jpg" alt="" srcset="">
+        Participo activamente en una vibrante categoría de karting de Cordoba, federada y representativa de 10 provincias de
+        todo el país. Este torneo se caracteriza por su alcance nacional y la participación de talentosos pilotos que
+        convergen desde distintos rincones de Argentina para competir a un alto nivel. Con la transmisión en vivo vía
+        streaming, el campeonato se ha convertido en un espectáculo accesible para aficionados y seguidores, brindando una
+        experiencia inmersiva que conecta a la audiencia con la emoción de las carreras.
+
+        En cada fecha, la pista se llena de adrenalina con la presencia de un sólido parque de 45 vehículos, cada uno
+        representando la destreza y el ingenio de su piloto. Este año, en particular, la competición ha sido intensa a lo
+        largo de 9 emocionantes fechas, llevando el karting a nuevos niveles de emoción y generando expectativas para el
+        próximo capítulo de esta apasionante temporada.</p>
+        <img data-aos="flip-left" data-aos-duration="3000" data-aos-easing="ease-out-cubic" class="photoKart"
+            src="/images/Kart.jpg" alt="" srcset="">
     </div>
 </template>
 
@@ -20,22 +24,22 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 export default {
-  mounted() {
-    AOS.init({
-      once: false, // La animación solo se realizará una vez
-      offset: 100, // Punto en píxeles antes de que se active la animación
-    });
+    mounted() {
+        AOS.init({
+            once: false, // La animación solo se realizará una vez
+            offset: 100, // Punto en píxeles antes de que se active la animación
+        });
 
-    window.addEventListener('scroll', this.handleScroll);
-  },
-  methods: {
-    handleScroll() {
-      AOS.refreshHard(); // Actualiza la posición de los elementos cuando se hace scroll
+        window.addEventListener('scroll', this.handleScroll);
     },
-  },
-  destroyed() {
-    window.removeEventListener('scroll', this.handleScroll);
-  },
+    methods: {
+        handleScroll() {
+            AOS.refreshHard(); // Actualiza la posición de los elementos cuando se hace scroll
+        },
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
 };
 </script>
 
@@ -105,5 +109,4 @@ export default {
     .photoKart {
         width: 100%;
     }
-}
-</style>
+}</style>

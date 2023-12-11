@@ -3,18 +3,8 @@
        
         <p data-aos="fade-right" class="pSubtitle">
             <h1 class="h1Title">Matias Becher</h1>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, voluptatem. Earum,
-            laboriosam possimus rerum nisi ducimus doloremque illo voluptatum laborum eveniet temporibus quis consequatur
-            vel, ipsa natus ex. Eveniet cum ut eaque soluta cupiditate harum esse? Repellendus nesciunt aliquam quaerat
-            expedita impedit, cum optio labore quo totam odit accusamus! Error ipsum doloremque possimus alias doloribus
-            maiores. Iure officiis vero fugiat? Ipsum cupiditate quidem soluta maiores quaerat asperiores eius similique eos
-            rem sequi quod, placeat dolores cum eligendi aspernatur doloribus? Nesciunt?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, voluptatem. Earum,
-            laboriosam possimus rerum nisi ducimus doloremque illo voluptatum laborum eveniet temporibus quis consequatur
-            vel, ipsa natus ex. Eveniet cum ut eaque soluta cupiditate harum esse? Repellendus nesciunt aliquam quaerat
-            expedita impedit, cum optio labore quo totam odit accusamus! Error ipsum doloremque possimus alias doloribus
-            maiores. Iure officiis vero fugiat? Ipsum cupiditate quidem soluta maiores quaerat asperiores eius similique eos
-            rem sequi quod, placeat dolores cum eligendi aspernatur doloribus? Nesciunt?</p>
-        <img data-aos="fade-left" src="/images/fotoAbout.jpg" alt="" class="photoAbout">
+            Matías Becher, con sus 27 años de edad y origen en Villa Mercedes (San Luis), ha forjado una destacada carrera deportiva de 9 años como piloto. Durante este tiempo, ha alcanzado la cima con la victoria en 2 campeonatos, se ha destacado como subcampeón en una ocasión y ha demostrado su consistencia con una amplia presencia en podios, consolidándose como una figura prominente en el mundo del automovilismo.</p>
+        <img data-aos="fade-left" src="/images/aboutPhoto.jpeg" alt="" class="photoAbout">
 
     </div>
 </template>

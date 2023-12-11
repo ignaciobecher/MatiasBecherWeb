@@ -1,4 +1,63 @@
 <template>
+ 
+ <div class="slider">
+  <div class="slide-track">
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
+    </div>
+  </div>
+</div>
   <div id="my-template" class="header-container">
     <video autoplay loop muted playsinline>
       <source
@@ -42,18 +101,23 @@
       <img loading="eager" src="/images/fotoAbout.jpg" alt="" />
     </div>
     <div class="images">
-      <img loading="eager" src="/images/headerMain.jpg" alt="" />
-    </div>
-    <div class="images">
       <img loading="eager" src="/images/turismo2.jpg" alt="" />
     </div>
     <div class="images">
-      <img loading="eager" src="/images/headerMain2.jpg" alt="" />
+      <img loading="eager" src="/images/headerMain.jpg" alt="" />
+    </div>
+
+    <div class="images">
+      <img loading="eager" src="/images/turismo7.jpeg" alt="" />
     </div>
   </div>
 
-  <i v-show="btnUpShow" @click="scrollToTop" id="btnUp" class="bi bi-arrow-up-circle-fill"></i>
-
+  <i
+    v-show="btnUpShow"
+    @click="scrollToTop"
+    id="btnUp"
+    class="bi bi-arrow-up-circle-fill"
+  ></i>
  
 </template>
 
@@ -64,14 +128,14 @@ export default {
   data() {
     return {
       isLoading: false,
-      btnUpShow:false,
+      btnUpShow: false,
     };
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   },
   destroyed() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
     scrollToBottom() {
@@ -79,8 +143,10 @@ export default {
       window.scrollTo(0, height + 100);
     },
     handleScroll() {
-      const height = document.getElementById('my-template').getBoundingClientRect().top;
-      
+      const height = document
+        .getElementById("my-template")
+        .getBoundingClientRect().top;
+
       if (window.pageYOffset > 200) {
         this.btnUpShow = true;
       } else {
@@ -88,14 +154,15 @@ export default {
       }
     },
     scrollToTop() {
-      const height = document.getElementById('my-template').getBoundingClientRect().top;
+      const height = document
+        .getElementById("my-template")
+        .getBoundingClientRect().top;
 
       window.scrollTo({
         top: height,
-        behavior: 'smooth' // Hace que el scroll sea suave
+        behavior: "smooth", // Hace que el scroll sea suave
       });
-    }
-
+    },
   },
 };
 </script>
@@ -116,7 +183,6 @@ export default {
   color: white;
   z-index: 2;
   cursor: pointer;
-  
 }
 .my-float {
   padding-top: 16px;
@@ -135,6 +201,32 @@ export default {
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
+}
+
+
+.slide img {
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+  background-color:white;
+}
+
+.slider {
+
+  background-color: whitesmoke;
+  
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
 }
 
 /*-------------------------------- RESPONSIVE PARA PANTALLAS GRANDES----------------------------- */

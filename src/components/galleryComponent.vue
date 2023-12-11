@@ -3,28 +3,30 @@
 
     <div class="images-container">
         <div class="images">
-            <img src="/images/Kart.jpg" alt="" />
+            <img loading="eager" src="/images/Kart.jpg" alt="" />
         </div>
         <div class="images">
-            <img src="/images/Kart.jpg" alt="" />
+            <img loading="eager" src="/images/turismo6.jpeg" alt="" />
+        </div>
+      
+        <div class="images">
+            <img loading="eager" src="/images/history.jpg" alt="" />
         </div>
         <div class="images">
-            <img src="/images/Kart.jpg" alt="" />
+            <img loading="eager" src="/images/karting3.jpeg" alt="" />
         </div>
         <div class="images">
-            <img src="/images/Kart.jpg" alt="" />
+            <img loading="eager" src="/images/karting1.jpeg" alt="" />
         </div>
         <div class="images">
-            <img src="/images/Kart.jpg" alt="" />
+            <img loading="eager" src="/images/kartin2.jpeg" alt="" />
+        </div>
+        
+        <div class="images">
+            <img loading="eager" src="/images/Kart.jpg" alt="" />
         </div>
         <div class="images">
-            <img src="/images/Kart.jpg" alt="" />
-        </div>
-        <div class="images">
-            <img src="/images/Kart.jpg" alt="" />
-        </div>
-        <div class="images">
-            <img src="/images/Kart.jpg" alt="" />
+            <img loading="eager" src="/images/turismo5.jpeg" alt="" />
         </div>
     </div>
 </template>
@@ -52,6 +54,8 @@
         grid-template-rows: auto auto auto;
         background-color: #0b1fba !important;
     }
+
+  
 
     .images img {
         width: 100%;

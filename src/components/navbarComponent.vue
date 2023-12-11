@@ -42,7 +42,7 @@
 
             <li class="nav-item">
               <a class="nav-link underline" @click="scroolToHistory" href="#"
-                >MI HISTORIA</a
+                >PROPUESTA PUBLICITARIA</a
               >
             </li>
           </ul>
@@ -112,8 +112,9 @@ export default {
   nav .nav-link {
     font-weight: 900;
     font-size: 23px;
-    color: white;
+    color: white ;
   }
+
 
   .navbar img {
     width: 80px;
@@ -166,7 +167,8 @@ export default {
   nav .nav-link {
     font-weight: 900;
     font-size: 23px;
-    color: white;
+    color: black;
+    text-shadow: 1px 1px 1px white;
   }
 
   .navbar img {

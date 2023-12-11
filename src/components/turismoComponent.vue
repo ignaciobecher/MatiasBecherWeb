@@ -6,19 +6,19 @@
 
       <p class="pSubtitle">
 
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur,
-      voluptatem. Earum, laboriosam possimus rerum nisi ducimus doloremque illo
-      voluptatum laborum eveniet temporibus quis consequatur vel, ipsa natus ex.
-      Eveniet cum ut eaque soluta cupiditate harum esse?Repellendus nesciunt
-      aliquam quaerat expedita impedit, cum optio labore quo totam odit
-      accusamus! Error ipsum doloremque possimus alias doloribus maiores. Iure
-      officiis vero fugiat? Ipsum cupiditate quidem soluta maiores quaerat
-      asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
-      aspernatur doloribus? Nesciunt?
+        Me encuentro compitiendo en la emocionante categoría Turismo Pista Clase 1, donde la competencia es intensa con un
+        parque conformado por 50 autos en cada fecha. La difusión en vivo a través de TYC SPORT y CANAL 13 amplifica la
+        experiencia, llegando a una audiencia aproximada de 1 millón de personas. Este vibrante campeonato no solo es un
+        desafío personal, sino que también es una oportunidad para exhibir mi destreza ante un público extenso y diverso. <br>
+
+        Las 10 fechas anuales llevan la competición a lo largo y ancho del país, convirtiendo cada evento en una travesía
+        que abraza la geografía y la pasión automovilística de los fanáticos locales. Esta dinámica serie no solo resalta
+        mi rendimiento en la pista, sino también la conexión única que se establece entre los pilotos, los autos y los
+        seguidores a lo largo de esta temporada.
       </p>
     </div>
 
-    <div data-aos="zoom-out-down" data-aos-duration="1000"  class="container2">
+    <div data-aos="zoom-out-down" data-aos-duration="1000" class="container2">
       <div class="photoTurism">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -26,10 +26,10 @@
               <img src="/images/turismo1.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="/images/turismo1.jpg" class="d-block w-100" alt="...">
+              <img src="/images/turismo4.jpeg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="/images/turismo1.jpg" class="d-block w-100" alt="...">
+              <img src="/images/turismo6.jpeg" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -105,11 +105,12 @@ export default {
     font-size: 20px;
   }
 
-  .container1{
+  .container1 {
     grid-column: 2;
     grid-row: 1;
   }
-  .container2{
+
+  .container2 {
     grid-column: 1;
     width: 95%;
     margin: 0 auto;
@@ -117,7 +118,7 @@ export default {
     align-self: center;
     align-content: center;
   }
-  
+
 
 
 }
@@ -147,5 +148,4 @@ export default {
   .photoTurism {
     width: 100%;
   }
-}
-</style>
+}</style>
