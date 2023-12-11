@@ -1,7 +1,7 @@
 <template>
   <div class="history-container">
     <p data-aos="zoom-in-left" data-aos-duration="1000" class="pSubtitle">
-    <h1 data-aos="zoom-in-left" data-aos-duration="1000" class="h1Title">Mi historia</h1>
+    <h1 data-aos="zoom-in-left" data-aos-duration="1000" class="h1Title">Propuesta publicitaria</h1>
 
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur,
     voluptatem. Earum, laboriosam possimus rerum nisi ducimus doloremque illo
@@ -13,7 +13,7 @@
     asperiores eius similique eos rem sequi quod, placeat dolores cum eligendi
     aspernatur doloribus? Nesciunt?
     </p>
-    <img data-aos-duration="1000" data-aos="zoom-in-right" class="photoTurism" src="/images/history.jpg" alt="" />
+    <img data-aos-duration="1000" data-aos="zoom-in-right" class="photoTurism" src="/images/logoBlanco3.png" alt="" />
   </div>
 </template>
 
@@ -62,10 +62,11 @@ export default {
   }
 
   .history-container img {
-    width: 100%;
-    height: 100%;
+    width: 40%;
     grid-column: 2;
     grid-row: 2;
+    margin: 0 auto;
+    align-self: center;
   }
 
   .history-container .pSubtitle {

@@ -54,13 +54,7 @@
 
   <i v-show="btnUpShow" @click="scrollToTop" id="btnUp" class="bi bi-arrow-up-circle-fill"></i>
 
-  <a
-    href="https://wa.link/7he26a"
-    class="float animate__animated animate__fadeIn"
-    target="_blank"
-  >
-    <i class="bi bi-whatsapp my-float"></i>
-  </a>
+ 
 </template>
 
 <script>

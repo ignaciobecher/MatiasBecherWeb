@@ -6,6 +6,7 @@
     <kartingComponent></kartingComponent>
     <turismoComponent></turismoComponent>
     <historyComponent></historyComponent>
+    <galleryComponent></galleryComponent>
     <footerComponent></footerComponent>
   </div>
 
@@ -36,6 +37,7 @@ import kartingComponent from "../components/kartingComponent.vue";
 import turismoComponent from "../components/turismoComponent.vue";
 import historyComponent from "../components/historyComponent.vue";
 import footerComponent from "../components/footerComponent.vue";
+import galleryComponent from "../components/galleryComponent.vue";
 export default {
   components: {
     navbarComponent,
@@ -45,6 +47,7 @@ export default {
     turismoComponent,
     historyComponent,
     footerComponent,
+    galleryComponent,
   },
   data() {
     return {
@@ -69,7 +72,6 @@ export default {
 </script>
 
 <style scoped>
-
 .heartbeat {
   position: absolute;
   top: 0;
@@ -78,7 +80,7 @@ export default {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
-} 
+}
 .heartbeat-container {
   position: absolute;
   top: 50%;
@@ -93,7 +95,7 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
- 
+
   border-radius: 50%;
   background-color: #fff;
   animation: heartbeat 2s infinite linear;
